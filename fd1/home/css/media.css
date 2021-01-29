@@ -1,0 +1,48 @@
+@media (min-width: 576px){
+    .modal-dialog {
+        max-width: 1200px; 
+}
+}
+@media all and (max-width: 845px){
+    .home, .about, .portfolio, .blog, .contakt{
+        font-size: 10px;
+        height: 25px;
+        padding: 5px;
+       
+    }
+    .home:hover, .about:hover, .portfolio:hover, .blog:hover, .contakt:hover{
+        font-size: 11px;
+    }
+    .header{
+        text-align: center;
+    }
+}
+@media all and (max-width: 550px){
+    .lian h1 {
+        
+        
+        font-size: 34px;
+       
+        padding: 3px 10px;
+        
+        
+    }
+    .fre h1 {
+       
+        font-size: 22px;
+        
+        padding: 3px 10px;
+       
+    }
+    header .logo{
+        margin-left: 11%;
+    }
+    footer .logo{
+        margin-left: -80%;
+    }
+}
+@media all and (max-width: 766px){
+    .stroke1{
+        margin-bottom: 0;
+}
+}

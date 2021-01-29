@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    text-align: center;
+    padding: 5px;
+}
+body{
+    background-color: #1abc9c;
+}
+hr{
+    margin: 0;
+}
+ main{
+background-color: #2e2d2d; 
+  
+}
+header{
+    background-color: #1abc9c ;
+}
+.stroke1{
+    margin-bottom: 2%;
+}
+
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.header{
+    text-align: unset;
+}
+.home, .about, .portfolio, .blog, .contakt{
+    font-family: 'Roboto', sans-serif;
+
+    font-size: 14px;
+    font-family: "Roboto";
+    color: #ffffff;
+    font-weight: bold;
+    text-align: right;
+    padding: 10px;
+    cursor: pointer;
+    transition: all 300ms;
+}
+.home:hover, .about:hover, .portfolio:hover, .blog:hover, .contakt:hover{
+    
+    
+    color: #000000;
+    text-shadow: #000000 1px 1px 2px;
+
+
+}
+
+nav{
+    margin-top: 1%;
+}
+nav a{
+    color: #ffffff;
+}
+.head{
+    height: 80px;
+    background-color: #1abc9c;
+   
+}
+.head div.container{
+    padding-top: 2%;
+}
+.head h2 {
+    font-family: 'Yusei Magic', sans-serif;
+    color: #ffffff;
+    text-align: start;
+    font-size: 28px;
+
+}
+div.photer{
+    text-align: unset;
+    margin-top: 2%;
+}
+.text1 p:first-child{
+    font-style: italic;
+}
+.text1 p:last-child{
+    font-family: 'Yusei Magic', sans-serif;
+
+}
+.skills{
+    margin-top: 2%;
+}
+.text2 h3{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: #777777;
+
+}
+.text2 p{
+    font-family: 'Yusei Magic', sans-serif;
+}
+.text2 a{
+    font-weight: bold;
+    color: #1abc9c;
+}
+
+
+
+footer{
+   
+    
+    height: 150px;
+    text-align: center;
+}
+
+
+.itemSoc{
+  
+   margin-bottom: 2%;
+}
+.social{
+    margin-top: 2%;
+}
+.rights{
+    font-family: 'Roboto', sans-serif;
+
+    margin-top: 1%;
+    font-size: 12px;
+    color: #ffffff ;
+  
+}
+.btn{
+    padding: 0;
+}
+.btn-primary {
+    
+    background-color: #2e2d2d; 
+    border-color: #494949;
+}
+main h2{
+    color: #cfcfcf;
+    font-family: 'Roboto', sans-serif;
+
+    font-size: 22px;
+}
+main p{
+    font-family: 'Yusei Magic', sans-serif;
+     color: #cfcfcf;
+     font-style: italic;
+}
+main{
+    margin-top: 2%;
+}
+.hr{
+    margin: 1rem 0;
+}
+.more{
+    margin-top: 2%;
+    margin-bottom: 2%;
+}

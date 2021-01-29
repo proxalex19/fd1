@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container{
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: #777777;
+}
+.header{
+    text-align: unset;
+}
+.home, .about, .portfolio, .blog, .contakt{
+    font-family: 'Roboto', sans-serif;
+
+    font-size: 14px;
+    font-family: "Roboto";
+    color: #777777;
+    font-weight: bold;
+    text-align: right;
+    padding: 10px;
+    cursor: pointer;
+    transition: all 300ms;
+}
+.home:hover, 
+.about:hover, 
+.portfolio:hover, 
+.blog:hover, 
+.contakt:hover{
+    color: #000000;
+    text-shadow: #000000 1px 1px 2px;
+}
+.carouusel{
+    margin-top: 1%;
+}
+.slide1{
+    background-image: url('../img/1.jpg');
+    background-size: cover;
+    height: 700px;
+}
+.slide2{
+    background-image: url('../img/2.jpg');
+    background-size: cover;
+    height: 700px;
+}
+.slide3{
+    background-image: url('../img/3.jpg');
+    background-size: cover;
+    height: 700px;
+}
+.lian {
+   margin-top: 15%;
+    text-align: center;
+} 
+.lian h1 {
+    font-family: 'Yusei Magic', sans-serif;
+    opacity: 0.7;
+    color: #FCF2E5;
+    background-color:  #000000 ;
+    font-size: 44px;
+    font-weight: normal;
+    padding: 10px 40px;
+    display: inline-block;
+    margin: 0;
+    line-height: 1;
+}
+.fre{
+    margin-top: 1%;
+    text-align: center;
+}
+.fre h1 {
+    font-family: 'Yusei Magic', sans-serif;
+    opacity: 0.7;
+    color: #FCF2E5;
+    background-color:  #000000 ;
+    font-size: 36px;
+    font-weight: normal;
+    padding: 10px 40px;
+    display: inline-block;
+    margin: 0;
+    line-height: 1;
+}
+
+main{
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+main button{
+    margin-bottom: 1%;
+}
+.item1{
+    font-family: 'Roboto', sans-serif;
+
+    color: #5e5e5e;
+    
+    font-size: 34px;
+    
+    
+    display: inline-block;
+    margin: 0;
+    line-height: 1;
+    margin-bottom: 1%;
+}
+.stroke1{
+    margin-bottom: 2%;
+}
+footer{
+    box-shadow: #959595 -1px -1px 3px;
+    margin-top: 1%;
+    height: 150px;
+    text-align: center;
+}
+
+
+.itemSoc{
+  
+   margin-bottom: 2%;
+}
+.social{
+    margin-top: 2%;
+}
+.rights{
+    font-family: 'Roboto', sans-serif;
+
+    margin-top: 1%;
+    font-size: 12px;
+    color: #c0c0c0 ;
+  
+}
+.btn-primary{
+    background: none;
+    border: none;
+}
+.btn{
+    padding: 0;
+}
+

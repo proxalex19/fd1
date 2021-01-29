@@ -1,0 +1,41 @@
+
+
+@media all and (max-width: 845px){
+    .home, .about, .portfolio, .blog, .contakt{
+        font-size: 12px;
+        height: 25px;
+        padding: 5px;
+       
+    }
+
+    .home:hover, .about:hover, .portfolio:hover, .blog:hover, .contakt:hover{
+        font-size: 13px;
+    }
+    li.breadcrumb-item{
+        font-size: 11px;
+    }
+    .header{
+        text-align: center;
+    }
+}
+@media all and (max-width: 550px){
+    
+    header .logo{
+        margin-left: 11%;
+    }
+    footer .logo{
+        margin-left: -80%;
+    }
+}
+@media all and (max-width: 768px){
+    div.photer{
+        text-align: center;
+    }
+}   
+@media all and (max-width: 576px){
+    .home, .about, .portfolio, .blog, .contakt{
+        text-align: start;
+       
+    } 
+
+ 

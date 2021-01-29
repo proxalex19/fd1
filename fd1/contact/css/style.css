@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.container{
+    text-align: center;
+    padding: 5px;
+}
+a{
+    text-decoration: none;
+    color: #777777;
+}
+.header{
+    text-align: unset;
+}
+.home, .about, .portfolio, .blog, .contakt{
+    font-family: 'Roboto', sans-serif;
+
+    font-size: 14px;
+    font-family: "Roboto";
+    color: #777777;
+    font-weight: bold;
+    text-align: right;
+    padding: 10px;
+    cursor: pointer;
+    transition: all 300ms;
+}
+.home:hover, .about:hover, .portfolio:hover, .blog:hover, .contakt:hover{
+    
+    
+    color: #000000;
+    text-shadow: #000000 1px 1px 2px;
+
+
+}
+
+nav{
+    margin-top: 1%;
+}
+.head{
+    height: 41px;
+    background-color: #1abc9c;
+   
+}
+.head h2 {
+    font-family: 'Yusei Magic', sans-serif;
+    color: #ffffff;
+    text-align: start;
+    font-size: 26px;
+
+}
+
+
+
+
+footer{
+    box-shadow: #959595 -1px -1px 3px;
+    margin-top: 1%;
+    height: 150px;
+    text-align: center;
+}
+
+.itemSoc{
+  
+   margin-bottom: 2%;
+}
+.social{
+    margin-top: 2%;
+}
+.rights{
+    font-family: 'Roboto', sans-serif;
+
+    margin-top: 1%;
+    font-size: 12px;
+    color: #c0c0c0 ;
+  
+}
+main{
+    background-image: url(../img/htmlcode.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.shadow{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 0, 0, 0.9);
+    
+}
+input{
+   margin-bottom: 4%;
+    background-color: rgba(141, 141, 141, 0.5);
+   
+}
+.forma{
+    margin-top: 7%;
+   
+}
+textarea{
+   
+    resize: none;
+    margin-bottom: 4%;
+    background-color: rgba(141, 141, 141, 0.5);
+}
+.btn-primary {
+    
+    background-color: #173868;
+    border-color: #173868;
+}
+button{
+    margin-bottom: 7%;
+}
+.adress{
+    margin-top: 7%;
+   text-align: start;
+   margin-bottom: 7%;
+}
+.itemAdress{
+    text-align: end;
+    color: #d6d6d6;
+}
+.adress h3{
+ 
+    font-family: 'Roboto', sans-serif;
+    color: #d6d6d6;
+}
+.adress p{
+    font-family: 'Yusei Magic', sans-serif;
+    color: #d6d6d6;
+}
+
+
+
+
